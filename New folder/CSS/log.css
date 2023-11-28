@@ -1,0 +1,147 @@
+.header{
+  height: 70px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #6b6e70;
+  border: none;
+}
+
+.burger{
+  width: 60px;
+  padding: 15px 0 25px 10px;
+  transition: background-color .15s;
+  cursor: pointer;
+}
+
+.burger:hover{
+  background-color: #a4a4a4;
+}
+
+.ham{
+  width: 40px;
+}
+
+.search{
+  font-family: Roboto, Arial;
+  border: solid;
+  height: 50px;
+  width: 450px;
+  margin-top: 7px;
+  padding-left: 10px;
+  border-radius: 50px;
+  border-color: #5c5e60;
+  font-size: 20px;
+}
+
+.inn{
+  display: flex;
+  flex-direction: row;
+  width: 215px;
+  vertical-align:middle;
+  margin-right:0;
+}
+
+.log{
+  background-color: #fdd700;
+  color:white;
+  border:none;
+  font-family: Arial;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color .15s, color .15s;
+  margin-right: 20px;
+}
+
+.log:hover{
+  background-color: white;
+  color: #fdd700;
+}
+
+.sign{
+  background-color: white;
+  color: #0f1235;
+  border:solid;
+  border-color: #0f1235;
+  border-width: 2px;
+  font-family: Arial;
+  padding: 8px 20px 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color .15s, color .15s;
+  margin-right:0;
+}
+
+.sign:hover{
+  background-color: #0f1235;
+  color: white;
+  border:none;
+}
+
+.buttons{
+  height: 35px;
+  background-color: #a4a4a4;
+  border:none;
+  top: 0;
+  background-color: green;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.home{
+padding:10px 15px 5px 5px;
+}
+
+.bahay, .mob, .computer, .tech, .about{
+  font-family: Arial;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color .15s, border .15s, padding .15s;
+}
+
+.about{
+  margin-right: 0;
+}
+
+.bahay:hover{
+background-color: #26580f;
+border: none;
+padding: 10px 5px 10px 5px;
+}
+
+.mob:hover{
+  background-color: #26580f;
+  border: none;
+  padding: 10px 5px 10px 5px;
+}
+
+.computer:hover{
+  background-color: #26580f;
+  border: none;
+  padding: 10px 5px 10px 5px;
+}
+
+.tech:hover{
+  background-color: #26580f;
+  border: none;
+  padding: 10px 5px 10px 5px;
+}
+
+.about:hover{
+  background-color: #26580f;
+  border: none;
+  padding: 10px 7px 10px 5px;
+}
+
+.login{
+  margin-top: 10000px;
+}
+
+.loglog{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+}

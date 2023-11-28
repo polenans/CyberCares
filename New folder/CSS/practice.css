@@ -1,0 +1,32 @@
+.main{
+  height: 300px;
+  border: solid;
+  border-color: gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.uno{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.hom{
+  font-family: Arial;
+  font-size: 30px;
+}
+
+.num{
+  font-family: Arial;
+  font-size: 30px;
+  color: white;
+  border-color: none;
+  background-color: skyblue;
+  padding: 10px 30px 10px 30px;
+  margin-top: 10px;
+  border-radius: 30px;
+}

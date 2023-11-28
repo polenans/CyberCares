@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>frfr</title>
+    <link rel="stylesheet" href="CSS/oliver.css">
+
+    <style>
+      .picc {
+          width: 100%;
+          overflow: hidden;
+      }
+  
+      .picc video {
+          width: 100%;
+          height: auto;
+          display: block;
+      }
+  </style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF with Visible Icons</title>
+
+<style>
+    body {
+        margin: 0;
+        overflow: hidden;
+    }
+
+    #pdf-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+    }
+
+    #pdf {
+        width: 100%;
+        height: 100%;
+    }
+
+    #icons-container {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 1000;
+        /* Add other styles for your icons container */
+    }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var aboutButton = document.getElementById('aboutButton');
+    aboutButton.addEventListener('click', function () {
+      window.location.href = 'home.html';
+    });
+  });
+</script>
+
+  </head>
+    
+  <body style=" 
+  background-color: white;">
+    <!--<div style="
+      display: flex;
+      flex-direction: row;
+      justify-content: start;"><!-- end, center, space-between-->
+      <!--<div style="background-color: lightblue;
+      ">div 1</div>
+      <div style="background-color: lightpink;
+      flex: 1;">div 2</div>
+    </div>
+
+    <div style="
+      display: flex;
+      flex-direction: row;
+      justify-content: start; "><!-- end, center, space-between--><!--align-items: top, bottom, center-->
+      <!--<div style="background-color: lightblue;
+      ">div 1</div>
+      <div style="background-color: lightpink;
+      flex: 1;">div 2</div>
+    </div>-->
+    <!--<div class="header">
+      <div class="left">left section</div>
+      <div class="middle">
+        <input type="text" placeholder="Search">
+      </div>
+      <div class="right">right section</div>
+    </div>-->
+
+    
+    <div class="header">
+
+      <div class="burger">
+        <img class="cyber" src="Pic/Screenshot 2023-11-26 224730.png">
+      </div>
+
+      <div class="text">
+        <input class="search" type="text" placeholder="Search">
+        <div class="serbut">
+          <img class="ser" src="Pic/174044.png">
+        </div>
+      </div>
+
+      <div class="inn">
+        <p class="log"><a href="login.html">Log In</a></p>
+        <p class="sign">Sign Up</p>
+      </div>
+    </div>
+    </div>
+
+    <div class="buttons">
+      <div class="home">
+        <buttton class="bahay">Home</buttton>
+        <buttton class="mob">Hardware and Gadgets</buttton>
+        <buttton class="computer">Software and Applications</buttton>
+        <buttton class="tech">Cybersecurity</buttton>
+        <buttton class="tech">Tech Trends</buttton>
+        <buttton id="aboutButton" class="about"><a href="about.html">About</a></buttton>
+      </div>
+    </div>
+
+    <embed src="CV.pdf" type="application/pdf" width="100%" height="600px" />
